@@ -1,0 +1,16 @@
+.btn {
+  width: 100%;
+}
+.Text {
+  display: inline;
+}
+
+.Image {
+  width: auto;
+  margin-top: 30px;
+}
+.register {
+  display: inline;
+  width: 25%;
+  margin-left: 35%;
+}

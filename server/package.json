@@ -1,0 +1,28 @@
+{
+  "name": "full-stack-authentication-node.js-mysql-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chakib2002/Full-stack-authentication-Node.js-Mysql-React.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chakib2002/Full-stack-authentication-Node.js-Mysql-React.js/issues"
+  },
+  "homepage": "https://github.com/chakib2002/Full-stack-authentication-Node.js-Mysql-React.js#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.7",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1"
+  }
+}

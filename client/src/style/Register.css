@@ -1,0 +1,18 @@
+.titles {
+  display: inline;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.Image {
+  margin-top: 60px;
+  width: auto;
+}
+.login {
+  display: inline;
+  width: 25%;
+  margin-left: 35%;
+}
+.space {
+  margin-top: 30px;
+}
