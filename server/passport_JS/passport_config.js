@@ -14,14 +14,14 @@ passport.use(new LocalStrategy({
     const user= await connection.get_username( username )
       function handle () {
       if (!user) {
-        return done(null, false, { message: 'Incorrect username.' });
+        return done(null, false);
       }
       connection.get_password(username).
       then( (user)=>{
         bcrypt.compare(password, user)
         .then((result)=>{
             if (!result) {
-                return done(null, false, { message: 'Incorrect password.' });
+                return done(null, false);
             }
             return done(null, username);
         })

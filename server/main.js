@@ -48,7 +48,7 @@ app.use((req,res,next) =>{
 app.post('/register', async(req, res, next)=>{
     const user = await get_username(req.body.username)
     if(user){
-        res.status(200).send({message : "Username already exist"})
+        res.status(200).send({message : "Username already exists"})
     }else{
         bcrypt.hash(req.body.password,10 ,async(err, result)=>{
             if(err){
