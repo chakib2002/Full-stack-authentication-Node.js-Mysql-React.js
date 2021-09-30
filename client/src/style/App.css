@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.button {
+  width: 15%;
+}
+.dashboard {
+  margin: 10% 0 0 0;
+  text-align: center;
+}
+.successRegister {
+  margin: 10% 0 0 0;
+  text-align: center;
+}
+.failedLogin {
+  margin: 10% 0 0 0;
+  text-align: center;
+}
